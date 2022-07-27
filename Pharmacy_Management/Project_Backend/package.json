@@ -1,0 +1,20 @@
+{
+  "name": "project_backend",
+  "version": "1.0.0",
+  "description": "Pharmacy Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "heshan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.15"
+  }
+  ,"proxy":"http://localhost:8070"
+}
